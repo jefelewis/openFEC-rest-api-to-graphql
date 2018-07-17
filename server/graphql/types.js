@@ -36,11 +36,11 @@ const TYPEDEFS = `
     candidate_id: String
     candidate_inactive: Boolean
     candidate_status: String
-    cycles: Int
+    cycles: [String]
     district: String
     district_number: Int
-    election_districts: String
-    election_years: Int
+    election_districts: [String]
+    election_years: [String]
     federal_funds_flag: Boolean
     first_file_date: String
     flags: String
