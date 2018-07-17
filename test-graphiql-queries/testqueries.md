@@ -1,0 +1,42 @@
+{
+  getAllCandidates {
+    api_version
+    results {
+      active_through
+      address_city
+      address_state
+      address_street_1
+      address_street_2
+      address_zip
+      candidate_id
+      candidate_inactive
+      candidate_status
+      cycles
+      district
+      district_number
+      election_districts
+      election_years
+      federal_funds_flag
+      first_file_date
+      flags
+      has_raised_funds
+      incumbent_challenge
+      incumbent_challenge_full
+      last_f2_date
+      last_file_date
+      load_date
+      name
+      office
+      office_full
+      party
+      party_full
+      state
+    }
+    pagination {
+      pages
+      per_page
+      page
+      count
+    }
+  }
+}
