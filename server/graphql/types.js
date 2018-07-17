@@ -27,7 +27,7 @@ const TYPEDEFS = `
   }
 
   type Candidate {
-    active_through: Int
+    active_through: [String]
     address_city: String
     address_state: String
     address_street_1: String
