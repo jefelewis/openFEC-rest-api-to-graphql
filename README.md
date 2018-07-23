@@ -1,5 +1,5 @@
 # Federal Bureau of Investigation (FBI) Crime Data Explorer GraphQL Server
-Operation Refactor America's wrapped Federal Election Commission's REST API (openFEC) with GraphQL. The REST endpoints have been mapped as GraphQL types and resolvers. **Note: Using this API requires a free API Key,** which can be acquired here: https://api.data.gov/signup/. Once your API Key is received, go to ./config/config.js and enter the API key into APIKEY.
+Operation Refactor America's wrapped Federal Election Commission's REST API (openFEC) to GraphQL API. The REST endpoints have been mapped as GraphQL types and resolvers. **Note: Using this API requires a free API Key,** which can be acquired here: https://api.data.gov/signup/. Once your API Key is received, go to ./config/config.js and enter the API key into APIKEY.
 
 If you'd like to contribute to this project, please fork this repository over and submit a pull request.
 
@@ -15,7 +15,7 @@ If you'd like to contribute to this project, please fork this repository over an
 *  [Example Query: ](#example-query-)
 
 ## About Operation Refactor America
-Operation Refactor America is a not associated with any governement agency, but our goal is to empower citizens with transparent data. However, only a fraction of government agencies provide public APIs, but they are usually poorly documented, build on archaic REST architecture, and contain scattered data. Our mission is to retreive that valuable data and convert them into an intuitive and modern API using GraphQL.
+Operation Refactor America is a not associated with any governement agency, but our goal is to empower citizens with transparent data. Only a fraction of government agencies provide public APIs, which are usually poorly documented, build on archaic REST architecture, and contain scattered data. Our mission is to retreive that valuable data and convert them into an intuitive and modern API using GraphQL Server.
 
 ## About the Data
 The data comes directly from the Federal Election Commission's REST API (opeFEC). A summary of endpoints and documentation can be found here: https://api.open.fec.gov/developers/
