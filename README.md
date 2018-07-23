@@ -1,4 +1,4 @@
-# Federa Election Commission (FEC) GraphQL Server
+# Federal Election Commission (FEC) GraphQL Server
 Operation Refactor America's wrapped Federal Election Commission's REST API (openFEC) to GraphQL API. The REST endpoints have been mapped as GraphQL types and resolvers. **Note: Using this API requires a free API Key,** which can be acquired here: https://api.data.gov/signup/. Once your API Key is received, go to ./config/config.js and enter the API key into APIKEY.
 
 If you'd like to contribute to this project, please fork this repository and submit a pull request.
